@@ -1,5 +1,5 @@
 .data
-    message: .asciiz "Hi, my name is Hamza."  # Defining two integer values in RAM.
+    message: .asciiz "Hi, my name is Hamza."  # Defining two String message "Hi, my name is Hamza." in RAM.
     
 .text
     main:
@@ -15,3 +15,5 @@
     	syscall
     	
     	jr $ra
+        Intro to Function
+        Assembly Language code for Function printing String message.
