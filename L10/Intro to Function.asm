@@ -12,12 +12,12 @@
     
     displayMessage:                           # Function Defination
     
-        #printing message
+        #printing a message
     	li $v0, 4
     	la $a0, message
     	syscall
     	
-        
+        # $ra register contain the address of the line exactly after the line from where the funtion is being called.
     	jr $ra
         Intro to Function
         Assembly Language code for Function printing String message.
