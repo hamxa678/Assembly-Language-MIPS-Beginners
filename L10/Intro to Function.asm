@@ -3,13 +3,13 @@
     
 .text
     main:
-    	jal displayMessage
+    	jal displayMessage                    # Transfering Control to line number where the funtion is define .i.e. here line no will be 12
     	
     #Telling the assembler that the program is done.
     li $v0, 10
     syscall
     
-    displayMessage:
+    displayMessage:                           
     	li $v0, 4
     	la $a0, message
     	syscall
