@@ -6,7 +6,7 @@
     	jal displayMessage                    # Transfering Control to line number where the funtion is define .i.e. here line no will be 12
     
     
-    #Telling the assembler that the program is done.
+    #Telling the assembler that the program is done. it is important coz the assembler will continue the execution of code coming ahead, i.e. it will run the fuction again and again.
     li $v0, 10
     syscall
     
