@@ -2,6 +2,7 @@
     message: .asciiz "Hi, my name is Hamza."  # Defining two String message "Hi, my name is Hamza." in RAM.
     
 .text
+    #the main funtion from where the exact execution of program starts.
     main:
     	jal displayMessage                    # Transfering Control to line number where the funtion is define .i.e. here line no will be 12
     
@@ -20,5 +21,5 @@
         # $ra register contain the address of the line exactly after the line from where the funtion is being called.
         # jr $ra will jump return to the line after the line from where the function is being called. i.e. line no 7
     	jr $ra
-        Intro to Function
-        Assembly Language code for Function printing String message.
+        
+       
