@@ -28,5 +28,3 @@
         # $ra register contain the address of the line exactly after the line from where the funtion is being called.
         # jr $ra will jump return to the line after the line from where the function is being called. i.e. line no 14
     	jr $ra
-    	
-#Function Arguments and Return Values
