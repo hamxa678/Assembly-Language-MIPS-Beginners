@@ -6,7 +6,7 @@
     #the main funtion from where the exact execution of program starts.
     main:
         
-        #Argument being passed to fuction must be stored in $a1, $a2 and $a3
+        #Argument being passed to fuction must be stored in $a1, $a2 and $a3 register
         addi $a1, $zero, 50		#Adding immediate value 50 and 0 in $zero and storing the resulant in register $a1.
         addi $a2, $zero, 100		# ---------------------100----------same---------------------------------------$a2.
     
