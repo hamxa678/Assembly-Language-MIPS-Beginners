@@ -10,7 +10,7 @@
         addi $a1, $zero, 50		    #Adding immediate value 50 and 0 in $zero and storing the resulant in register $a1.
         addi $a2, $zero, 100		# ---------------------100----------same---------------------------------------$a2.
     
-    jal addNumber                	# Transfering Control to line number where the funtion is define .i.e. here line no will be 12
+    jal addNumber                	# Transfering Control to line number where the funtion is define .i.e. here line no will be 19
       
     #Telling the assembler that the program is done. it is important coz the assembler will continue the execution of code coming ahead, i.e. it will run the fuction again and again.
     li $v0, 10
