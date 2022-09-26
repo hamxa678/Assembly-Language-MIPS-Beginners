@@ -11,7 +11,7 @@
     li $v0, 10
     syscall
     
-    displayMessage:                           # 
+    displayMessage:                           # Function Defination
     
         #printing a message
     	li $v0, 4
