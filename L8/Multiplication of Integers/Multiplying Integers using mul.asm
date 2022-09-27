@@ -1,5 +1,5 @@
 .data
-    num1: .word 7  # 
+    num1: .word 7  # Defining two integer values in RAM.
     num2: .word 3
     
 .text
@@ -13,5 +13,4 @@
     li $v0, 1
     add $a0, $zero, $t2		# you can also use "move $a0, $t2" instead of "add $a0, $zero, $t2"
     syscall
-    #Multiplying Integers using mul
-    #Assembly Language code for multiplying Integers using mul.
+ 
