@@ -6,3 +6,5 @@
     li $v0, 4
     la $a0, myCharacter
     syscall
+    Printing a Character
+    Assembly Language code for printing a Character
