@@ -7,5 +7,5 @@
     lw $a0, myInt           #Storing value of myInt in $a0, means that the integer value that computer is about to print is myInt value
     syscall                 #System call tell the assembler to perform the above required task. i.e. printing an integer
     
-    Printing an Integer
-    Assembly Language code for printing an integer
+    
+    
