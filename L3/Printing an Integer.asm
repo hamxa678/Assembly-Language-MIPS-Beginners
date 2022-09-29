@@ -4,7 +4,7 @@
 .text
     # Printing an integer on the screen
     li $v0, 1               #Storing instant value 1 in $v0 means that computer is going to print a integer.   
-    lw $a0, myInt
+    lw $a0, myInt           #Storing value of myCharacter in $a0, means that the string/char value computer is about to print is myCharacter value
     syscall
     
     Printing an Integer
