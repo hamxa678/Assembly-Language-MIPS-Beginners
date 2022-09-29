@@ -3,6 +3,9 @@
     
 .text
     # Printing an integer on the screen
-    li $v0, 1
+    li $v0, 1               #Storing instant value 1 in $v0 means that computer is going to print a string/char.   
     lw $a0, myInt
     syscall
+    
+    Printing an Integer
+    Assembly Language code for printing an integer
