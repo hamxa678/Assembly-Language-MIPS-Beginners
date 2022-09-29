@@ -5,7 +5,7 @@
     # Printing an integer on the screen
     li $v0, 1               #Storing instant value 1 in $v0 means that computer is going to print a integer.   
     lw $a0, myInt           #Storing value of myInt in $a0, means that the integer value that computer is about to print is myInt value
-    syscall                 #System call tell the assembler to perform the above required task. i.e. printing a String/char
+    syscall                 #System call tell the assembler to perform the above required task. i.e. printing an integer
     
     Printing an Integer
     Assembly Language code for printing an integer
