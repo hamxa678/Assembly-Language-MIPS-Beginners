@@ -7,5 +7,5 @@
     lwc1 $f12, myFloat      #Storing value of myFloat in $f12 of co processor, means that the float value that computer is about to print is myFloat value
     syscall                 #System call tell the assembler to perform the above required task. i.e. printing an float
     
-    Printing a Float
-    Assembly Language code for printing a Float.
+    
+    
