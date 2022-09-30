@@ -4,7 +4,7 @@
 .text
     # Printing a float value on the screen
     li $v0, 2               #Storing instant value 2 in $v0 means that computer is going to print a float.
-    lwc1 $f12, myFloat
+    lwc1 $f12, myFloat      #Storing value of myInt in $f12 of co processor, means that the integer value that computer is about to print is myFloat value
     syscall
     
     Printing a Float
