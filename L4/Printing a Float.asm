@@ -6,3 +6,6 @@
     li $v0, 2
     lwc1 $f12, myFloat
     syscall
+    
+    Printing a Float
+    Assembly Language code for printing a Float.
