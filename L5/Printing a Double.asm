@@ -8,7 +8,7 @@
     ldc1 $f0, zeroDouble
     
     li $v0, 3                   #Storing instant value 3 in $v0 means that computer is going to print a double.
-    add.d $f12,$f2, $f0
+    add.d $f12,$f2, $f0         #adding a decimal numbers stored in $f2 and $f0 using add.d, and storing the resultant value in $f12 mean we are telling the computer that the double value you were about to print is in $f12.
     syscall
     
     Printing a Double
