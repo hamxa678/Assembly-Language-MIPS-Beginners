@@ -1,5 +1,5 @@
 .data
-    myFloat: .float 23.32  # Defining float in RAM having a value 23
+    myFloat: .float 23.32  # Defining float in RAM having a value 23.32
     
 .text
     # Printing a float value on the screen
