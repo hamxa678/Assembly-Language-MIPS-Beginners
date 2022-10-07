@@ -14,5 +14,5 @@
     add $a0, $zero, $t2
     syscall
     
-    Adding Integers
-    Assembly Language code for adding two numbers(integers).
+    
+    
