@@ -10,7 +10,7 @@
     add $t2, $t0, $t1		# $t2 = $t0 + $t1	i.e. $t2 = 7+3 = 10
     
     # Printing the resultant value
-    li $v0, 1
+    li $v0, 1               # As explained in previous coding
     add $a0, $zero, $t2
     syscall
     
