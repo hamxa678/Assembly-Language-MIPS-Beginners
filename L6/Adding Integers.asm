@@ -4,7 +4,7 @@
     
 .text
     # Adding two integer values and then Printing the resulltant integer value on the screen.
-    lw $t0, num1($zero)		# $t0 = num1 = 7
+    lw $t0, num1($zero)		# $t0 = num1 = 7   i.e. loading word (7) using lw into a temprary register $t0 
     lw $t1, num2($zero)		# $t1 = num2 = 3
   
     add $t2, $t0, $t1		# $t2 = $t0 + $t1	i.e. $t2 = 7+3 = 10
