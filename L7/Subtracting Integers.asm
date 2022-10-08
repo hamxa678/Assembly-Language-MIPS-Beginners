@@ -13,6 +13,3 @@
     li $v0, 1               # As explained in previous coding
     add $a0, $zero, $t2		# you can also use "move $a0, $t2" instead of "add $a0, $zero, $t2"
     syscall
-    
-    Subtracting Integers
-    Assembly Language Code for Subtracting Integers
