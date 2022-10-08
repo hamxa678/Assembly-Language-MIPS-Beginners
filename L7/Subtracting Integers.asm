@@ -1,6 +1,6 @@
 .data
     num1: .word 7  # Defining two integer values in RAM.
-    num2: .word 3
+    num2: .word 3  # num2 = 3
     
 .text
     # Subtracting two integer values and then Printing the resulltant integer value on the screen.
