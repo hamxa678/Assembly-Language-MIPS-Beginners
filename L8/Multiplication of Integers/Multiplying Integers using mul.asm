@@ -7,7 +7,7 @@
     lw $t0, num1($zero)		# $t0 = num1 = 7.......loading word/integer 7 in temprary variable in $t0.
     lw $t1, num2($zero)		# $t1 = num2 = 3.......loading word/integer 3 in temprary variable in $t1.
   
-    mul $t2, $t0, $t1		# $t2 = $t0 * $t1	i.e. $t2 = 7*3 = 21
+    mul $t2, $t0, $t1		# $t2 = $t0 * $t1	i.e. $t2 = 7*3 = 21.......storing the resultant value in $t2
     
     # Printing the resultant value
     li $v0, 1
