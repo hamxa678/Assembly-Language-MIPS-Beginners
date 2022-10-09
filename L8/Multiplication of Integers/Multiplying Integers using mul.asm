@@ -1,6 +1,6 @@
 .data
-    num1: .word 7  # Defining two integer values in RAM.
-    num2: .word 3
+    num1: .word 7  # Defining two integer values in RAM. num1 = 7
+    num2: .word 3  # num2 = 3
     
 .text
     # multiplying two integer values and then Printing the resulltant integer value on the screen.
@@ -14,3 +14,5 @@
     add $a0, $zero, $t2		# you can also use "move $a0, $t2" instead of "add $a0, $zero, $t2"
     syscall
  
+Multiplying Integers using mul
+Assembly language code for multiplying Integers using mul.
