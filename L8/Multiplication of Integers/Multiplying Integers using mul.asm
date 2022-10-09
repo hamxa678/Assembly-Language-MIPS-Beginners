@@ -10,7 +10,7 @@
     mul $t2, $t0, $t1		# $t2 = $t0 * $t1	i.e. $t2 = 7*3 = 21.......storing the resultant value in $t2
     
     # Printing the resultant value
-    li $v0, 1
+    li $v0, 1               # Explained in previous coding
     add $a0, $zero, $t2		# you can also use "move $a0, $t2" instead of "add $a0, $zero, $t2"
     syscall
  
