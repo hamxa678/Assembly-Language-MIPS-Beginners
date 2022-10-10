@@ -5,7 +5,7 @@
 .text
     # multiplying two integer values and then Printing the resulltant integer value on the screen.
     lw $t0, num1($zero)		# $t0 = num1 = 7000.......loading word/integer 7000 in temprary variable in $t0.
-    lw $t1, num2($zero)		# $t1 = num2 = 30
+    lw $t1, num2($zero)		# $t1 = num2 = 30.......loading word/integer 30 in temprary variable in $t1.
   
     mult $t0, $t1		# $t2 = $t0 * $t1	i.e. $t2 = 7000*30 = 210000
     mflo $t2
