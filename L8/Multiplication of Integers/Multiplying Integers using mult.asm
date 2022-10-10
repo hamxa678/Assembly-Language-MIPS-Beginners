@@ -1,6 +1,6 @@
 .data
-    num1: .word 7000  # Defining two integer values in RAM.
-    num2: .word 30
+    num1: .word 7000  # Defining two integer values in RAM. num1=7000
+    num2: .word 30    # num2 = 30
     
 .text
     # multiplying two integer values and then Printing the resulltant integer value on the screen.
