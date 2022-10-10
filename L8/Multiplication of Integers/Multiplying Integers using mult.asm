@@ -11,7 +11,7 @@
     mflo $t2            #mflo stand for move from lo, it is reposible for moving the resultant value stored in lo register to the temp register $t2
 
     # Printing the resultant value
-    li $v0, 1
+    li $v0, 1               #explained in previous lecture/coding
     add $a0, $zero, $t2		# you can also use "move $a0, $t2" instead of "add $a0, $zero, $t2"
     syscall
     
