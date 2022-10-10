@@ -8,7 +8,7 @@
     lw $t1, num2($zero)		# $t1 = num2 = 30.......loading word/integer 30 in temprary variable in $t1.
   
     mult $t0, $t1		# $t2 = $t0 * $t1	i.e. $t2 = 7000*30 = 210000
-    mflo $t2
+    mflo $t2            #mflo stand for move from lo, it is reposible for moving the resultant value stored in lo register to the temp register $t2
 
     # Printing the resultant value
     li $v0, 1
