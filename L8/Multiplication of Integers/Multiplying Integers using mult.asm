@@ -14,3 +14,6 @@
     li $v0, 1
     add $a0, $zero, $t2		# you can also use "move $a0, $t2" instead of "add $a0, $zero, $t2"
     syscall
+    
+    Multiplying Integers using mult
+    Assembly Language coding for Multiplying Integers using mult.
