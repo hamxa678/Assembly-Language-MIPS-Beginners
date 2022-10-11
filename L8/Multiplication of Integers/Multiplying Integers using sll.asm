@@ -20,3 +20,6 @@
     li $v0, 1
     add $a0, $zero, $t1		# you can also use "move $a0, $t1" instead of "add $a0, $zero, $t1"
     syscall
+    
+    Multiplying Integers using sll.
+    Assembly language code for Multiplying Integers using sll.
