@@ -8,7 +8,7 @@
 # if you want to multiply a number by 4 just shift all bits toward left by two bit only i.e. 2^(2)= 4. 
 
 .data
-    num1: .word 7  # Defining two integer values in RAM.
+    num1: .word 7  # Defining two integer values in RAM. i.e. num1 = 7
     
 .text
     # multiplying integer value and then Printing the resulltant integer value on the screen.
