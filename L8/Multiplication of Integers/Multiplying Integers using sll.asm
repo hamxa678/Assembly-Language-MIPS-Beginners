@@ -17,7 +17,7 @@
     sll $t1,$t0, 2   		# this means we are shifting bits toward left by 2 bit, so we are goin to multiply 7 stored in $t0 by 2^(2) i.e. 7*4 = 28 and store the resultant value in $t1
 
     # Printing the resultant value
-    li $v0, 1
+    li $v0, 1               # as explained in previous lecture coding
     add $a0, $zero, $t1		# you can also use "move $a0, $t1" instead of "add $a0, $zero, $t1"
     syscall
     
